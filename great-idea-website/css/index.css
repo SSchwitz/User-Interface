@@ -64,3 +64,120 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body {
+	background-color:white;
+}
+.container {
+width: 1000px;
+margin: 0 auto;
+background-color: white;
+}
+/* Header/Nav */
+header{
+margin: 0px 0px 60px 0px;
+text-align: center;
+width: 100%;
+padding: 10px 0px;
+position: fixed;
+background-color: white;
+}
+
+#nav-menu, #nav-logo{
+display: inline-block;
+vertical-align: middle;
+
+}
+#nav-menu{
+padding: 0px 100px 0px 0px;
+margin: 0px;
+}
+nav a {
+padding: 30px;
+color: Black;
+text-decoration: none;
+}
+
+/* Call to Action  */
+
+#section1{
+width:100%;
+padding: 10px 0px;
+text-align: center;
+margin: 0px 0px 100px 0px;
+}
+#sub, #sub-logo{
+display: inline-block;
+vertical-align: middle;
+margin-top: 100px;
+}
+#sub {
+font-size: 75px;
+margin:0px;
+padding: 0px;
+text-align: center;
+}
+#button1{
+padding: 10px 40px;
+margin: 0px;
+background-color: white;
+border: 1px black solid;
+color:white;
+}
+#button1:hover {
+background-color: white;
+color: black;
+}
+#mega-huge{
+padding: 0px;
+margin: 0px;
+}
+
+
+/* Sections */
+
+.wrapper{
+width: 100%;
+vertical-align: middle;
+}
+
+.section-block1 {
+display: inline-block;
+text-align: left;
+max-width: 49%;
+margin: 0px 5px 25px 0px;
+}
+
+.section-block2 {
+display: inline-block;
+text-align: left;
+max-width: 31%;
+margin: 25px 0px 25px 0px;
+}
+
+
+
+/* Middle Gif */
+.wrapper img{
+width: 100%;
+padding: 10px;
+}
+
+
+
+/* Footer */
+
+footer {
+margin: 35px 0px 0px 0px;
+}
+#copy {
+text-align: center;
+}
+footer a {
+text-decoration: none;
+color: black;
+}
+footer a:hover, footer a:active {
+	color: black;
+	background-color: white;
+}
+
